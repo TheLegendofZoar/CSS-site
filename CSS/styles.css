@@ -1,0 +1,193 @@
+/* Elements and containers*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a{
+    color: #11999E;
+}
+
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+hr{
+    margin: 5rem auto 5rem auto;
+    width: 6%;
+    border-width: 6px;
+    border-style: dotted none none;
+    color: #b1b8b8;
+}
+
+/* IDs */
+
+/* Images */
+
+#profile-image{
+    margin: 5rem auto 5rem auto;
+    border-radius: 50%; 
+     
+}
+
+#wordpress{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+    
+}
+
+#HTML{
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+    
+}
+
+#CSS{
+    width: 25%; 
+    float: left;
+    padding-right: 30px;
+    
+}
+
+#mySQL{
+    width: 25%; 
+    float: right;
+    padding-left: 30px;
+}
+
+/* text */
+
+#about-me {
+    width: 50%;
+    margin:auto;
+}
+
+#in-touch-text {
+    margin: 3rem auto 3rem auto;
+}
+
+#get-in-touch-text {
+    width: 75%;
+    margin: 3rem auto 3rem auto;
+}
+
+#copyright{
+    margin-top: 3rem;
+    color: #EAF6F6;
+}
+
+/* Classes */
+
+/* Containers */
+
+.top-container{
+    padding-top: 100px;
+    position: relative;
+    background-color: #EAF6F6;
+}
+
+.middle-container{
+   
+}
+
+.bottom-container{
+    margin-top: 5rem;
+    padding: 2rem;
+   background-color: #66BFBF ;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 6.25rem auto 6.25em auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+/* Text */
+
+.web{
+    text-decoration: underline;
+}
+
+
+/* Images */
+
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+    bottom: 50%;
+}
+
+/* Button */
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  /* Links */
+
+  .footer-link{
+    font-weight: bold;
+    padding: 2em;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    color: white;
+  }
